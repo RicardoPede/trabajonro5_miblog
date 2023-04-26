@@ -10,6 +10,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style1.css" />
   </head>
 
   <body>
@@ -26,7 +27,8 @@
           data-bs-target="#navbarsExample02"
           aria-controls="navbarsExample02"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -63,9 +65,9 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            <svg class="bi me-2" width="40" height="32">
-              <use xlink:href="#bootstrap"></use>
-            </svg>mis cursos
+            <svg class="bi" width="40" height="32">
+              <use xlink:href="#bootstrap"></use></svg
+            >mis cursos
           </a>
           <ul class="dropdown-menu text-small shadow">
             <li>
@@ -112,7 +114,9 @@
             </a>
             <ul class="dropdown-menu text-small shadow">
               <li><a class="dropdown-item" href="#">Página Principal</a></li>
-              <li><a class="dropdown-item" href="cursos.html">Más Cursos</a></li>
+              <li>
+                <a class="dropdown-item" href="cursos.html">Más Cursos</a>
+              </li>
               <li>
                 <hr class="dropdown-divider" />
               </li>
@@ -125,7 +129,7 @@
 
     <main class="container">
       <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-        <div class="col-md-6 px-0">
+        <div class="col-md-12 px-0">
           <h1 class="display-4 fst-italic">
             Tecnologías de la Información y Comunicaciones
           </h1>
@@ -136,82 +140,93 @@
             de medios electrónicos y digitales.
           </p>
           <p class="lead mb-0">
-            <a href="notdisp.html" class="text-white fw-bold">Continue leyendo...</a>
+            <a href="notdisp.html" class="text-white fw-bold"
+              >Continue leyendo...</a
+            >
           </p>
         </div>
-      </div>
 
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative d-flex"
-          >
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary">Curso1</strong>
-              <h3 class="mb-0">
-                Principios y Regulaciones de Seguridad de la Información
-              </h3>
-              <div class="mb-1 text-body-secondary">24 abril</div>
-              <p class="card-text mb-auto">
-                <li>
-                  Identificar los requerimientos más comunes de seguridad de la
-                  información y las medidas de seguridad de la información más
-                  comunes.
-                </li>
-                <li>
-                  Conocer los procesos de definición, desarrollo e
-                  implementación de políticas, y procedimientos de seguridad de
-                  la información en una organización
-                </li>
-                Conocer los principales requerimientos regulatorios respecto de
-                la seguridad de los datos personales.
-                <li>
-                  Identificar las características del cibercrimen y las nuevas
-                  tendencias de los delitos informáticos.
-                </li>
-              </p>
-              <a href="notdisp.html" class="stretched-link">Quieres saber más?</a>
-            </div>
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative d-flex"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Curso1</strong>
+                <h3 class="mb-0">
+                  Principios y Regulaciones de Seguridad de la Información
+                </h3>
+                <div class="mb-1 text-body-secondary">24 abril</div>
+                <p class="card-text mb-auto">
+                  <li>
+                    Identificar los requerimientos más comunes de seguridad de
+                    la información y las medidas de seguridad de la información
+                    más comunes.
+                  </li>
+                  <li>
+                    Conocer los procesos de definición, desarrollo e
+                    implementación de políticas, y procedimientos de seguridad
+                    de la información en una organización
+                  </li>
+                  Conocer los principales requerimientos regulatorios respecto
+                  de la seguridad de los datos personales.
+                  <li>
+                    Identificar las características del cibercrimen y las nuevas
+                    tendencias de los delitos informáticos.
+                  </li>
+                </p>
+                <a href="notdisp.html" class="stretched-link"
+                  >Quieres saber más?</a
+                >
+              </div>
 
-            <div class="col-auto d-none d-lg-block">
-              <img
-                width="200"
-                height="auto"
-                class="bd-placeholder-img align-self-center"
-                src="https://www.becasinternacionales.net/webapp/img/courses/d84e37_principios-y-regulaciones-de-seg_w730.jpg"
-                alt=""
-              />
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  width="200"
+                  height="auto"
+                  class="bd-placeholder-img align-self-center"
+                  src="https://www.becasinternacionales.net/webapp/img/courses/d84e37_principios-y-regulaciones-de-seg_w730.jpg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="row mb-2">
-          <div class="col-md-6">
+
+        <div class="row mb-4">
+          <div class="col-md-12">
             <div
               class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative d-flex"
             >
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-primary">Curso2</strong>
-                <h3 class="mb-0">
-                  Seguridad en la Red
-                </h3>
+                <h3 class="mb-0">Seguridad en la Red</h3>
                 <div class="mb-1 text-body-secondary">25 abril</div>
                 <p class="card-text mb-auto">
                   <li>
-                    Identificar los fundamentos de arquitectura de ciberseguridad en la red de computadores y en la nube.
+                    Identificar los fundamentos de arquitectura de
+                    ciberseguridad en la red de computadores y en la nube.
                   </li>
                   <li>
-                    Identificar los principios generales para asegurar el host a partir de su funcionamiento, alcance y limitaciones de sus controles y sistema operativo.
+                    Identificar los principios generales para asegurar el host a
+                    partir de su funcionamiento, alcance y limitaciones de sus
+                    controles y sistema operativo.
                   </li>
                   <li>
-                    Identificar el funcionamiento básico de control de ciberseguridad en la red de computadores.
+                    Identificar el funcionamiento básico de control de
+                    ciberseguridad en la red de computadores.
                   </li>
                   <li>
-                    Identificar los procesos de computación forense, la identificación, recolección, adquisición y preservación de evidencia digital.
+                    Identificar los procesos de computación forense, la
+                    identificación, recolección, adquisición y preservación de
+                    evidencia digital.
                   </li>
                 </p>
-                <a href="notdisp.html" class="stretched-link">Quieres saber más?</a>
+                <a href="notdisp.html" class="stretched-link"
+                  >Quieres saber más?</a
+                >
               </div>
-  
+
               <div class="col-auto d-none d-lg-block">
                 <img
                   width="200"
@@ -223,6 +238,8 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </main>
 
     <script

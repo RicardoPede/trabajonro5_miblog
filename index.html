@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand navbar-dark bg-dark"
+      aria-label="Second navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Seguridad en TIC's</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample02"
+          aria-controls="navbarsExample02"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cursos</a>
+            </li>
+          </ul>
+          <form role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="py-3 mb-3 border-bottom">
+      <div
+        class="container-fluid d-grid gap-3 align-items-center"
+        style="grid-template-columns: 1fr 2fr"
+      >
+        <div class="dropdown">
+          <a
+            href="#"
+            class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>mis cursos
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li>
+              <a class="dropdown-item active" href="#" aria-current="page"
+                >Página Principal</a
+              >
+            </li>
+            <li><a class="dropdown-item" href="#">Curso1</a></li>
+            <li><a class="dropdown-item" href="#">Curso2</a></li>
+            <li><a class="dropdown-item" href="#">Curso3</a></li>
+            <li><a class="dropdown-item" href="#">Curso4</a></li>
+            <li><a class="dropdown-item" href="#">Curso5</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Ayuda</a></li>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center">
+          <form class="w-100 me-3" role="search">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="flex-shrink-0 dropdown">
+            <a
+              href="#"
+              class="d-block link-dark text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="mdo"
+                width="32"
+                height="32"
+                class="rounded-circle"
+              />
+            </a>
+            <ul class="dropdown-menu text-small shadow">
+              <li><a class="dropdown-item" href="#">Página Principal</a></li>
+              <li><a class="dropdown-item" href="#">Contáctame</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Ayuda</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">
+            Tecnologías de la Información y Comunicaciones
+          </h1>
+          <p class="lead my-3">
+            Es un conjunto de herramientas, recursos y técnicas utilizados para
+            procesar, almacenar, transmitir y compartir información en
+            diferentes formatos (texto, audio, video, imágenes, etc.) a través
+            de medios electrónicos y digitales.
+          </p>
+          <p class="lead mb-0">
+            <a href="#" class="text-white fw-bold">Continue leyendo...</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative d-flex"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Curso1</strong>
+              <h3 class="mb-0">
+                Principios y Regulaciones de Seguridad de la Información
+              </h3>
+              <div class="mb-1 text-body-secondary">24 abril</div>
+              <p class="card-text mb-auto">
+                <li>
+                  Identificar los requerimientos más comunes de seguridad de la
+                  información y las medidas de seguridad de la información más
+                  comunes.
+                </li>
+                <li>
+                  Conocer los procesos de definición, desarrollo e
+                  implementación de políticas, y procedimientos de seguridad de
+                  la información en una organización
+                </li>
+                Conocer los principales requerimientos regulatorios respecto de
+                la seguridad de los datos personales.
+                <li>
+                  Identificar las características del cibercrimen y las nuevas
+                  tendencias de los delitos informáticos.
+                </li>
+              </p>
+              <a href="#" class="stretched-link">Quieres saber más?</a>
+            </div>
+
+            <div class="col-auto d-none d-lg-block">
+              <img
+                width="200"
+                height="auto"
+                class="bd-placeholder-img align-self-center"
+                src="https://www.becasinternacionales.net/webapp/img/courses/d84e37_principios-y-regulaciones-de-seg_w730.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative d-flex"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Curso2</strong>
+                <h3 class="mb-0">
+                  Seguridad en la Red
+                </h3>
+                <div class="mb-1 text-body-secondary">25 abril</div>
+                <p class="card-text mb-auto">
+                  <li>
+                    Identificar los fundamentos de arquitectura de ciberseguridad en la red de computadores y en la nube.
+                  </li>
+                  <li>
+                    Identificar los principios generales para asegurar el host a partir de su funcionamiento, alcance y limitaciones de sus controles y sistema operativo.
+                  </li>
+                  <li>
+                    Identificar el funcionamiento básico de control de ciberseguridad en la red de computadores.
+                  </li>
+                  <li>
+                    Identificar los procesos de computación forense, la identificación, recolección, adquisición y preservación de evidencia digital.
+                  </li>
+                </p>
+                <a href="#" class="stretched-link">Quieres saber más?</a>
+              </div>
+  
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  width="200"
+                  height="auto"
+                  class="bd-placeholder-img align-self-center"
+                  src="https://www.becasinternacionales.net/webapp/img/courses/d84e37_principios-y-regulaciones-de-seg_w730.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
